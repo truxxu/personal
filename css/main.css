@@ -20,7 +20,7 @@
   border-radius: 100px;
 }
 
-.fas {
+.fas, .fab{
   font-size: 75px;
 }
 
@@ -35,5 +35,18 @@
 }
 
 .row {
-  padding-bottom: 20px;
+/*  padding-bottom: 20px;
+*/}
+
+.contact-content {
+  height: 100vh;
+}
+
+#contact {
+  background-color: lightgrey;
+}
+
+.contact-list > ul{
+  display: inline-block;
+  list-style: none;
 }
