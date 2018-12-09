@@ -50,3 +50,19 @@
   display: inline-block;
   list-style: none;
 }
+
+#education, #jobs {
+  padding: 90px 0;
+}
+
+#education h4 {
+  padding: 20px 0;
+}
+
+#jobs h2 {
+  padding-bottom: 90px;
+}
+
+h1 {
+  margin-top: 30px !important;
+}
