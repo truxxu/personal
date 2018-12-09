@@ -1,3 +1,26 @@
+html * {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-top: 30px !important;
+}
+
+h2 {
+  padding-bottom: 90px;
+  margin: 0 !important;
+  font-weight: bolder !important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+ul > li {
+    display: inline-block;
+    margin:0 20px 0 20px;
+}
 .banner {
   background: linear-gradient(to left, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
@@ -14,12 +37,6 @@
   width: 50%;
 }
 
-#profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-}
-
 .fas, .fab{
   font-size: 75px;
 }
@@ -30,20 +47,8 @@
   border-radius: 4px;
 }
 
-#jobs {
-  background-color: lightgrey;
-}
-
 .row {
-/*  padding-bottom: 20px;
-*/}
-
-.contact-content {
-  height: 100vh;
-}
-
-#contact {
-  background-color: lightgrey;
+  padding-bottom: 40px;
 }
 
 .contact-list > ul{
@@ -51,18 +56,26 @@
   list-style: none;
 }
 
-#education, #jobs {
-  padding: 90px 0;
+.section {
+  padding: 90px 0 70px 0;
+}
+
+#contact, #jobs {
+  background-color: #393e46;
+  color: white;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
 }
 
 #education h4 {
   padding: 20px 0;
 }
 
-#jobs h2 {
-  padding-bottom: 90px;
+#contact > .row {
+  padding: 0;
 }
 
-h1 {
-  margin-top: 30px !important;
-}
